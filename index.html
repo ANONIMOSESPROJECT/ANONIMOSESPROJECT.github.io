@@ -4,34 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Игроmens</title>
+    <title>Razor Company</title>
     <style>
         h1 {
             text-align: center;
-            color:crimson ;
+            color:#ff0b0b ;
             font-size: 4em;
+            position: relative;
         }
         .headero{
             display: flex;
             justify-content: space-around;
             font-size: 2em;
+            position: relative;
+            
 
         }
         table {
             width: 100vw;
         }
+    body{
+background-color: #0a180d;
+height: 100vh;
+    }
+h3{
+color: #ff0b0b;
+position: relative;
+}
+h1::before{
+content: '';
+position: absolute;
+width: 0;
+height: 5px;
+background-color: rgb(214, 243, 214);
+bottom: 0;
+left: 0;
+transition: all ease-in-out .5s;
+}
+h1::after{
+content: '';
+position: absolute;
+width: 0;
+height: 5px;
+background-color: rgb(210, 230, 210);
+top: 0;
+right: 0;
+transition: all ease-in-out .5s;
+}
+h1:hover::before{
+width:100%;
+height: 5px;
+}
+h1:hover::after{
+width:100%;
+height: 5px;
+}
+h3::before{
+content: '';
+position: absolute;
+width: 0;
+height: 5px;
+background-color: rgb(214, 243, 214);
+bottom: 0;
+left: 0;
+transition: all ease-in-out .5s;
+}
+h3::after{
+content: '';
+position: absolute;
+width: 0;
+height: 5px;
+background-color: rgb(210, 230, 210);
+top: 0;
+right: 0;
+transition: all ease-in-out .5s;
+}
+h3:hover::before{
+width:100%;
+height: 5px;
+}
+h3:hover::after{
+width:100%;
+height: 5px;
+}
+a{
+color: rgb(208, 255, 0);
+text-decoration: none;
+font-size: 2em;
+}
+table {
+    
+}
+.Yura{
+display: flex;
+height: 45vh;
+position: relative;
+top: 10%;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
     </style>
 </head>
 <body>
-   <h1>ANONIMOSES PROJECT</h1>
+   <h1>Razor w.s.p</h1>
    <div class="headero">
-<h3>School</h3>
-<h3>Music</h3>
+<h3>Razor Study</h3>
+<h3>Razor Music</h3>
    </div> 
-   <table>
-    <tr>
-        <th>
-            <a href="about_ me.html">hip</a>
+  
+        <div class="Yura">
+            <!-- <a href="about_ me.html">hip</a>
             <a href="anonimo.html">gfhf</a>
             <a href="gasteru.html">fgjft</a>
             <a href="index 1.html">dftuft</a>
@@ -45,12 +130,17 @@
             <a href="index11.html">ftud</a>
             <a href="Le torrento.html">dfu</a>
             <a href="RASTER.html">ftuft</a>
-            <a href="salde.html">fti</a>
-        </th>
-        <th> n </th>
-    </tr>
-   </table>
-   <div class="overkill"><a href="https://www.overkillsoftware.com/">Overkill Software</a></div>
+            <a href="salde.html">fti</a> -->
+
+            <a href="https://store.steampowered.com/">Steam</a>
+            <a href="https://www.youtube.com/">Youtube</a>
+            <a href="https://dzen.ru/">Yandex</a>
+            <a href="https://ru.wargaming.net/">Wargaming.Net</a>
+            <a href="https://vkplay.ru/">VK Play</a>
+            </div>
+        
+    
+  
    
 </body>
 </html>
